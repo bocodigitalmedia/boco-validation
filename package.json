@@ -1,0 +1,21 @@
+{
+  "name": "boco-validation",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/coffee-script/bin/coffee -l README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bocodigitalmedia/boco-validation"
+  },
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bocodigitalmedia/boco-validation/issues"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
