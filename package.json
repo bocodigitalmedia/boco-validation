@@ -1,10 +1,11 @@
 {
   "name": "boco-validation",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Classes and utilities for validation",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/coffee-script/bin/coffee -l README.md"
+    "test": "./node_modules/coffee-script/bin/coffee -l README.md",
+    "compile": "rm -r lib && mkdir lib && ./node_modules/coffee-script/bin/coffee -cm -o lib coffee"
   },
   "repository": {
     "type": "git",

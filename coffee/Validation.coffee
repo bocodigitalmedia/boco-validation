@@ -9,6 +9,9 @@ class Validation
     @errors[key] = [] unless @errors[key]?
     @errors[key].push message
 
+  assert: (key, message, test) ->
+    @addError key, message unless test @subject[key]
+
   isInvalid: ->
     @errors? and Object.getOwnPropertyNames(@errors).length > 0
 
